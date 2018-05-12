@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="android.final_project.jadwalkuliah.Kontak">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:cardElevation="20dp">
+
+        <ScrollView
+            android:id="@+id/kontak"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="DEVELOVER TEAM"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/rizki" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Muhammad Rizki Aditia"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Project Leader"
+                        android:textSize="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/fb1"
+                            android:layout_width="40dp"
+                            android:layout_height="32dp"
+                            android:src="@drawable/facebook"
+                            android:background="#fff"/>
+
+                        <ImageButton
+                            android:id="@+id/gm1"
+                            android:layout_width="40dp"
+                            android:layout_height="32dp"
+                            android:src="@drawable/gmail"
+                            android:background="#fff"/>
+                        <ImageButton
+                            android:id="@+id/in1"
+                            android:layout_width="40dp"
+                            android:layout_height="32dp"
+                            android:src="@drawable/instagram"
+                            android:background="#fff"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="0.50"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/male" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Rikard Ikhwanul"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Programmer"
+                            android:textSize="15dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/fb2"
+                                android:layout_width="40dp"
+                                android:layout_height="32dp"
+                                android:src="@drawable/facebook"
+                                android:background="#fff"/>
+
+                            <ImageButton
+                                android:id="@+id/gm2"
+                                android:layout_width="40dp"
+                                android:layout_height="32dp"
+                                android:src="@drawable/gmail"
+                                android:background="#fff"/>
+                            <ImageButton
+                                android:id="@+id/in2"
+                                android:layout_width="40dp"
+                                android:layout_height="32dp"
+                                android:src="@drawable/instagram"
+                                android:background="#fff"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="0.50"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/male" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Fajar Ichsan"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Programmer"
+                            android:textSize="15dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/fb3"
+                                android:layout_width="40dp"
+                                android:layout_height="32dp"
+                                android:src="@drawable/facebook"
+                                android:background="#fff"/>
+
+                            <ImageButton
+                                android:id="@+id/gm3"
+                                android:layout_width="40dp"
+                                android:layout_height="32dp"
+                                android:src="@drawable/gmail"
+                                android:background="#fff"/>
+                            <ImageButton
+                                android:id="@+id/in3"
+                                android:layout_width="40dp"
+                                android:layout_height="32dp"
+                                android:src="@drawable/instagram"
+                                android:background="#fff"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="0.50"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/male" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Hilmanudin"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Programmer"
+                            android:textSize="15dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/fb4"
+                                android:layout_width="40dp"
+                                android:layout_height="32dp"
+                                android:src="@drawable/facebook"
+                                android:background="#fff"/>
+
+                            <ImageButton
+                                android:id="@+id/gm4"
+                                android:layout_width="40dp"
+                                android:layout_height="32dp"
+                                android:src="@drawable/gmail"
+                                android:background="#fff"/>
+                            <ImageButton
+                                android:id="@+id/in4"
+                                android:layout_width="40dp"
+                                android:layout_height="32dp"
+                                android:src="@drawable/instagram"
+                                android:background="#fff"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="0.50"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/female" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Winna Cristy"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Programmer"
+                            android:textSize="15dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/fb5"
+                                android:layout_width="40dp"
+                                android:layout_height="32dp"
+                                android:src="@drawable/facebook"
+                                android:background="#fff"/>
+
+                            <ImageButton
+                                android:id="@+id/gm5"
+                                android:layout_width="40dp"
+                                android:layout_height="32dp"
+                                android:src="@drawable/gmail"
+                                android:background="#fff"/>
+                            <ImageButton
+                                android:id="@+id/in5"
+                                android:layout_width="40dp"
+                                android:layout_height="32dp"
+                                android:src="@drawable/instagram"
+                                android:background="#fff"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

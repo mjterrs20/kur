@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.final_project.jadwalkuliah">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InputJadwal"
+            android:label="Tambah Jadwal"
+            android:parentActivityName=".InputJadwal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Dasboard" />
+        </activity>
+        <activity
+            android:name=".EditJadwal"
+            android:label="Edit Jadwal"
+            android:parentActivityName=".EditJadwal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DetailJadwal" />
+        </activity>
+        <activity
+            android:name=".ListMatakuliah"
+            android:label="Jadwal Saya"
+            android:parentActivityName=".ListMatakuliah">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Dasboard" />
+        </activity>
+        <activity
+            android:name=".DetailJadwal"
+            android:label="Detail Jadwal"
+            android:parentActivityName=".DetailJadwal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListMatakuliah" />
+        </activity>
+        <activity
+            android:name=".Tentang"
+            android:label="Tentang"
+            android:parentActivityName=".Tentang">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Dasboard" />
+        </activity>
+        <activity
+            android:name=".Dasboard"
+            android:label="@string/title_activity_dasboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Kontak"
+            android:label="Develover"
+            android:parentActivityName=".Dasboard">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Dasboard" />
+        </activity>
+
+        <receiver android:name=".MyBroadcastReceiver"></receiver>
+
+    </application>
+
+</manifest>
